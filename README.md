@@ -3,7 +3,7 @@ module 15 repo challenge
 
 
 <p align="center">
-<img src="images/austin-texas-skyline.jpg" alt="Austin skyline" width="500" height="300">
+<img src="images/austin_map.png" alt="visualization"  width="640" height="480">
 </p>
 
 ---
@@ -11,8 +11,8 @@ module 15 repo challenge
 - [Background](#background)
 - [Data Sources](#data)
 - [Findings and Conclusions](#findings)
-- [Part 1: Populate Database in pgAdmin](#part-1)
-- [Part 2: Python Flask API ](#part-2)
+- [Part 1: Create the Earthquake Visualization](#part-1)
+- [Part 2: Gather and Plot More Data](#part-2)
 - [Part 3: Dashboard Page](#part-3)
 
 
