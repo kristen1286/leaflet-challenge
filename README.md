@@ -3,7 +3,7 @@ module 15 repo challenge
 
 
 <p align="center">
-<img src="images/austin_map.png" alt="visualization"  width="640" height="480">
+<img src="Images/1-Logo.png" alt="visualization"  width="540" height="280">
 </p>
 
 ---
@@ -13,8 +13,6 @@ module 15 repo challenge
 - [Findings and Conclusions](#findings)
 - [Part 1: Create the Earthquake Visualization](#part-1)
 - [Part 2: Gather and Plot More Data](#part-2)
-- [Part 3: Dashboard Page](#part-3)
-
 
 ---
 ## Background <a name="background"></a>
@@ -32,98 +30,33 @@ The USGS provides earthquake data in a number of different formats, updated ever
 ## Findings and Conclusions <a name="findings"></a>
 The following findings and conclusions from the analysis are as follows:
 
- 1.  ### Change in housing prices over time compared to monthly inventory  
-<p align="center">
-<img src="images/price_vs_lnvent_line.png" alt="visualization" >
-</p>
+ 1.  ### Findings 
 
- 2. ### Total listings vs sales over time
-<p align="center">
-<img src="images/sales_vs_list_line.png" alt="visualization" >
-</p>
-        
- 3. ### Monthly Inventory vs sales over time
-<p align="center">
-<img src="images/sales_vs_lnvent_line.png" alt="visualization" >
-</p>
-
- 4. ### Bubble chart analysis 
-<p align="center">
-<img src="images/price_dis_chart.png" alt="buble chart">
-</p>
-
- 4.  ### Geo map
-<p align="center">
-<img src="images/austin_map.png" alt="visualization"  width="640" height="480">
-</p>
- 
 ---
 ## Part 1: Create the Earthquake Visualization <a name="part-1"></a>
 
-  1. annual_home_sales.csv column info:
+  1. Import and visualize the data by doing the following:
     
-    -  lines of data: 33
-    -  Data collected from 1990 to 2022
+   -  Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
+   -  Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.
+   -  Hint: The depth of the earth can be found as the third coordinate for each earthquake.
+   -  Include popups that provide additional information about the earthquake when its associated marker is clicked.
+   -  Create a legend that will provide context for your map data.
+   -  Your visualization should look something like the preceding map.
 
-  2. monthly_home_sales.csv column info:
-     
-    -  lines of data: 400
-    -  Data collected from Jan-1990 to Apr-2022
-
-  3. price_distribution.csv column info:
-     
-    -  lines of data: 11
-    -  Data collected from 2011 to 2022 with the following distrubution
-      -  "$0 - $69,999"
-      -  "$70,000 - $99,999"
-      -  "$100,000 - $149,999"
-      -  "$150,000 - $199,999"
-      -  "$200,000 - $249,999"
-      -  "$250,000 - $299,999"
-      -  "$300,000 - $399,999"
-      -  "$400,000 - $499,999"
-      -  "$500,000 - $749,999"
-      -  "$750,000 - $999,999"
-      -  "$1,000,000 +"
-
-  4. austinHousingData.csv column info:
-
-    -  lines of data: 15,171
-    -  data was collected from 2021
-      - This data set was important to better illustrate the houses on the market in 2021 in the Austin Round-rock area
----
-## Part 2: Python Flask API  <a name="part-2"></a>
-The python Flask api was used to jsonify the databases:
-
- 1.  annual_home_sales.csv
+   ### Geo map
 <p align="center">
-<img src="images/annual_sales_json.png" alt="visualization of jsonified data" width="350" height="200">
-</p>
-
- 2.  monthly_home_sales.csv
-<p align="center">
-<img src="images/monthly_sales_json.png" alt="visualization of jsonified data" width="350" height="200">
-</p>
-
- 3.  price_distribution.csv
-<p align="center">
-<img src="images/price_dist_json.png" alt="visualization of jsonified data" width="350" height="200">
-</p>
-
- 4.  austinHousingData.csv
-<p align="center">
-<img src="images/austin_homes_json.png" alt="visualization of jsonified data" width="350" height="200">
+<img src="Images/2-BasicMap.png" alt="visualization"  width="540" height="280">
 </p>
 
 ---
-## Part 3: Dashboard Page <a name="part-3"></a>
-Backend dashboard showcases data visualizations that run without error.
-1. A JavaScript library not shown in class used in this project.
-      -  chart.js
-2. dash board utilized Leaflet or Plotly chart built from data gathered
-    
+## Part 2: Gather and Plot More Data  <a name="part-2"></a>
+Plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in this dataset and visualize it alongside your original data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplatesLinks to an external site.
+
+   ### Geo map
 <p align="center">
-<img src="images/dashboard.png" alt="dashboard page" >
+<img src="Images/5-Advanced.png" alt="visualization"  width="540" height="280">
 </p>
 
 ---
+
