@@ -10,7 +10,6 @@ module 15 repo challenge
 ## Table of Contents
 - [Background](#background)
 - [Data Sources](#data)
-- [Findings and Conclusions](#findings)
 - [Part 1: Create the Earthquake Visualization](#part-1)
 - [Part 2: Gather and Plot More Data](#part-2)
 
@@ -19,18 +18,13 @@ module 15 repo challenge
 
 The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
 
-The USGS is interested in building a new set of tools that will allow them to visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. In this challenge, you have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
+The USGS is interested in building a new set of tools that will allow them to visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. In this challenge, I've have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
 ---
 ## Data Sources <a name="data"></a>
-The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visited the USGS GeoJSON FeedLinks to an external site. page and chose a dataset to visualize.
- 1.  annual_home_sales.csv (From Texas A&M University Texas Real Estate Research Center)
-
----
-## Findings and Conclusions <a name="findings"></a>
-The following findings and conclusions from the analysis are as follows:
-
- 1.  ### Findings 
+The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visited the USGS GeoJSON FeedLinks to an external site page and chose a dataset to visualize.
+ 1.  (https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
+ 2.  part 2: (https://github.com/fraxen/tectonicplatesLinks)
 
 ---
 ## Part 1: Create the Earthquake Visualization <a name="part-1"></a>
